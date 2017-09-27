@@ -1,0 +1,15 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="rulepresentation" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="rulepresentation" scope="public">
+    <example>Sarah, présente toi</example>
+    <tag>out.action=new Object(); </tag>
+
+    <item>Sarah</item>
+
+    <one-of>
+      <item>présente toi<tag>out.action.test = "Bonjour je me nomme Sarah, je suis la pour vous aidai"</tag></item>
+	  <item>Fait ta présentation<tag>out.action.test = "j'ai été conçu dans le but d'imiter le raisonnement humain afin de vous aidé"</tag></item>
+    </one-of>
+
+    <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/presentation";</tag>
+  </rule> 
+</grammar>

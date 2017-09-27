@@ -1,0 +1,10 @@
+{
+  "modules": { 
+    "presentation": {
+      "description": "SARAH se presente",
+      "version": "3.16",
+      "phrase": "Je fait ma présentation.",
+	  "Auteur": "Avatar Rousseau (Dark Best)"
+    }
+  }
+}
